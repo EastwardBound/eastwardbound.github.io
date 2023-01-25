@@ -478,3 +478,14 @@ a.banner {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  span.underline--10 {
+    display: block;
+  }
+  .arrow--before:before {
+    margin-left: -48px;
+  }
+  .arrow--before.arrow--1:before {
+    margin-left: -48px;
+  }
+}
