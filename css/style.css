@@ -247,11 +247,23 @@ span.strikethrough:after {
     background-repeat: no-repeat;
     margin-left: -4px;
 }
-span.underline--1:after, span.underline--2:after, span.underline--3:after, .underline--4:after, .underline--5:after, .underline--6:after, .underline--7:after, .underline--8:after, .underline--9:after, .underline--10:after, .underline--11:after {
+span.strikethrough--2:after {
+    background-image: url(../images/line--strikethrough--2.svg);
     content: "";
     width: 100%;
     position: absolute;
-    height: 4px;
+    margin-top: -22px;
+    height: 8px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: -242px;
+    margin-top: 22px;
+}
+span.underline--1:after, span.underline--2:after, span.underline--3:after, .underline--4:after, .underline--5:after, .underline--6:after, .underline--7:after, .underline--8:after, .underline--9:after, .underline--10:after, .underline--11:after, .underline--12:after, .underline--13:after, .underline--14:after, .underline--15:after, .underline--16:after, .underline--17:after, .underline--18:after, .underline--19:after, .underline--20:after, .underline--21:after, .underline--22:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 6px;
     display: block;
     background-repeat: no-repeat;
     margin-top: -2px;
@@ -305,7 +317,72 @@ span.underline--1:after {
     margin-top: -2px;
     margin-left: -4px;
 }
+.underline--12:after {
+    background-image: url(../images/line--underline--12.svg);  
+    margin-top: -4px;
+    position: absolute;
+    width: 400px;
+    display: inline-block;
+    margin-left: -176px;
+    margin-top: 40px;
+    height: 6px;
 }
+.underline--13:after {
+    background-image: url(../images/line--underline--13.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--14:after {
+    background-image: url(../images/line--underline--14.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--15:after {
+    background-image: url(../images/line--underline--15.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--16:after {
+    background-image: url(../images/line--underline--16.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--17:after {
+    background-image: url(../images/line--underline--17.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--18:after {
+    background-image: url(../images/line--underline--18.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--19:after {
+    background-image: url(../images/line--underline--19.svg);  
+    margin-top: -4px;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    margin-left: -294px;
+    margin-top: 40px;
+    height: 6px;
+}
+.underline--20:after {
+    background-image: url(../images/line--underline--20.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--21:after {
+    background-image: url(../images/line--underline--21.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+.underline--22:after {
+    background-image: url(../images/line--underline--22.svg);  
+    margin-top: -2px;
+    margin-left: -4px;
+}
+
 
 .arrow {
     display: inline-block;
@@ -456,6 +533,9 @@ a.banner {
 @media only screen and (max-width: 640px) {
   .row.twocol {
     display: inline-block;
+    margin-top:0px;
+  }
+  .row.twocol.first {
     margin-top: 20px;
   }
   .twocol .col {
@@ -477,6 +557,18 @@ a.banner {
   .arrow--before.arrow--1:before {
     margin-left: -80px;
   }
+  span.underline--19 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+span.strikethrough--2 {
+    display: block;
+}
+span.underline--12 {
+    display: block;
+}
 }
 
 @media only screen and (max-width: 480px) {
