@@ -135,6 +135,7 @@ a.navlink {
   text-decoration: none;
   color: inherit;
   opacity: 0.8;
+  margin-left:40px;
 }
 a.navlink:hover {
   opacity: 1;
@@ -561,6 +562,9 @@ a.banner {
   span.underline--19 {
     display: block;
   }
+  a.navlink {
+  margin-left:32px;
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -570,6 +574,9 @@ span.strikethrough--2 {
 span.underline--12 {
     display: block;
 }
+a.navlink {
+  margin-left:20px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -581,5 +588,8 @@ span.underline--12 {
   }
   .arrow--before.arrow--1:before {
     margin-left: -48px;
+  }
+a.navlink {
+  margin-left:8px;
   }
 }
