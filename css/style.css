@@ -454,7 +454,7 @@ span.underline--1:after {
 
 /* CTA */
 
-#book {
+.book {
     position: fixed;
     width: calc(100vw - 40px);
     max-width: 800px;
