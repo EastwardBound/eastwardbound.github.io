@@ -47,6 +47,12 @@
   gtag('config', 'G-183P0Z1WXT');
 </script>
 
+<script type='text/javascript'>
+document.getElementById( 'emailbutton' ).addEventListener( 'click', function () {
+    window.lintrk('track', { conversion_id: 14168314 });
+} );
+</script>
+
 </head>
 
 <body>
@@ -58,7 +64,7 @@
         <div>
             <a class="navlink" href="design-for-startups">startups</a>
             <a class="navlink" href="design-for-scaleups">scaleups</a>
-            <button class="navlink" onclick="window.location.href='mailto:hello@eastwardbound.co';" javascript="window.lintrk('track', { conversion_id: 14168314 });"><img src="images/icon--eyes.svg" style="margin:0px 4px -5px 0px;"> hello@eastwardbound.co</a>
+            <button id="emailbutton" class="navlink" onclick="window.location.href='mailto:hello@eastwardbound.co';" javascript="window.lintrk('track', { conversion_id: 14168314 });"><img src="images/icon--eyes.svg" style="margin:0px 4px -5px 0px;"> hello@eastwardbound.co</a>
         </div>
     </div>
 
