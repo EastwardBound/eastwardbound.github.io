@@ -203,6 +203,17 @@ img.logo:hover {
     justify-content: center;
 }
 
+#proposition.short {
+  height:auto;
+    width: 100%;
+    max-width: 880px;
+    padding: 0 40px;
+    margin: 200px auto 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .content-standard {
   width: 100%;
   max-width: 880px;
@@ -238,6 +249,11 @@ img.logo:hover {
 
 .col .title-small {
   margin-top: 0px;
+}
+
+img.full-bleed {
+    width: 100vw;
+    height: auto;
 }
 
 /* Detail */
@@ -456,6 +472,7 @@ span.underline--1:after {
 
 .book {
     position: fixed;
+    z-index:100;
     width: calc(100vw - 40px);
     max-width: 800px;
     background: rgba(255,255,255,1);
@@ -467,8 +484,7 @@ span.underline--1:after {
     justify-content: space-between;
     padding: 24px;
     transition-duration: 0.2s;
-    box-shadow:  17px 17px 34px #FFF6FA,
-             -17px -17px 34px #FFF6FA;
+    box-shadow:  17px 17px 34px rgba(0,0,0,0.05), -17px -17px 34px rgba(0,0,0,0.05);
   }
 
 #book:hover {
