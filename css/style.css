@@ -475,7 +475,7 @@ span.underline--1:after {
     z-index:100;
     width: calc(100vw - 40px);
     max-width: 800px;
-    background: rgba(255,255,255,1);
+    background: rgba(255,255,255,0.8);
     border-radius: 8px;
     left: 50%;
     margin-left: -400px;
@@ -484,6 +484,7 @@ span.underline--1:after {
     justify-content: space-between;
     padding: 24px;
     transition-duration: 0.2s;
+    backdrop-filter: blur(20px);
     box-shadow:  17px 17px 34px rgba(0,0,0,0.05), -17px -17px 34px rgba(0,0,0,0.05);
   }
 
