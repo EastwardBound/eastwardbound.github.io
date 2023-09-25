@@ -60,20 +60,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="nav" style="z-index:100">
         <a href="https://eastwardbound.co"><img class="logo" src="images/logo.png"></a>
         <div>
-            <a class="navlink" href="design-for-startups">startups</a>
-            <a class="navlink" href="design-for-scaleups">scaleups</a>
-            <button id="emailbutton" class="navlink" onclick="window.location.href='mailto:hello@eastwardbound.co';"><img src="images/icon--eyes.svg" style="margin:0px 4px -5px 0px;"> hello@eastwardbound.co</a>
+            <button id="emailbutton" class="navlink" onclick="window.location.href='mailto:hello@eastwardbound.co';"><img src="images/icon--eyes.svg" style="margin:0px 4px -5px 0px;"> hello@eastwardbound.co</button>
+            <button id="bookacall" class="fill" onclick="window.location.href='https://calendly.com/maxquinn/eastwardbound-strategycall';">Book a free strategy call</button>
         </div>
     </div>
 
     <div id="proposition" class="short">
         <p class="title"><span class="impact-inline">Eastward Bound</span> is a collective <img src="images/icon--faces.svg" style="margin: 0px 4px -3px 4px;"> of senior designers, strategists and product people. With an average eleven years experience <img src="images/icon--crown.svg" style="margin: 0px 4px -3px 4px;"> in startups and scale-ups, we team up to solve your toughest problems <img src="images/icon--question.svg" style="margin: 0px 3px -6px 4px;"> Without agency costs, misaligned goals or bloated timeframes.</p>
         <p class="title">Because flying east is always faster <img src="images/icon--rocket.svg" style="margin: 0px 4px -7px 6px;"></p>
-        <p class="impact-med underline--11" style="margin-top:24px;"><a href="#about">Find out more <img src="images/icon--click.svg" style="margin: 0px 4px -3px 0px;"></a></p>
+        <p id="downlink" class="impact-med underline--11" style="margin-top:24px;"><a href="#quotes">Find out more <img src="images/icon--click.svg" style="margin: 0px 4px -3px 0px;"></a></p>
     </div>
 
-    <div id="work">
+    <div id="work" class="banner-fullbleed">
+        <div class="overlay">
+            <button class="fill big" onclick="window.location.href='work';">Cut to the work</button>
+        </div>
         <img class="full-bleed" src="images/work-compressed.gif">
+    </div>
+
+    <div id="quotes" class="content-standard" style="margin-top:0px;margin-bottom:80px;padding-top:160px;">
+        <div class="row twocol">
+                <div class="col">
+                    <p class="title"><span class="impact-inline">Eastward Bound are fucking amazing.</span> Process, vision, communication, execution, all of it.</p>
+                    <div class="attribution">
+                        <img class="client-headshot" src="images/client-napper.png" width="74px" height="auto">
+                        <p style="font-size:18px;"><span class="impact-inline" style="font-size:20px;">Napper Tandy</span><br/>CEO - One House</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="title"><span class="impact-inline">We finally have a product we’re proud of,</span> and a unified strategy amongst the entire team.</p>
+                    <div class="attribution">
+                        <img class="client-headshot" src="images/client-jeff.png" width="72px" height="auto">
+                        <p style="font-size:18px;"><span class="impact-inline" style="font-size:20px;">Jeff Spires</span><br/>CEO - RWL</p>
+                    </div>
+                </div>
+        </div>
     </div>
 
     <div id="about" class="content-standard" style="padding-top:80px;">
@@ -86,12 +107,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col white">
                 <p class="title-small underline--4">For startups</p>
                 <p class="para-small">We excel in validating propositions, defining strategy, designing killer brands, launching products and finding product market fit.</p>
-                <p class="impact-med arrow"><a href="design-for-startups">Find out more</a></p>
+                <p class="impact-med arrow"><a href="services">Our services</a></p>
             </div>
             <div class="col white">
                 <p class="title-small underline--5">For scaleups</p>
                 <p class="para-small">We break glass ceilings with strategy and positioning exercises, re-brands and product design based on your problems and goals.</p>
-                <p class="impact-med arrow"><a href="design-for-scaleups">Find out more</a></p>
+                <p class="impact-med arrow"><a href="services">Our services</a></p>
             </div>
         </div>
     </div>
@@ -163,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
 
-    <div id="process" class="content-standard" style="margin-bottom:320px;">
+    <div id="process" class="content-standard" style="margin-bottom:80px;">
         <p class="title">A pain free process</p>
         <p class="para-big" style="margin-bottom: 8px;">Whether you want to launch a product, re-brand, fix leaky funnels, improve product metrics, work more efficiently or refine your strategy, all of our projects follow a clear process...</p>
         <div class="row fourcol" style="margin-top:0px;">
@@ -184,16 +205,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="para-small">We lead the work, guided by your industry expertise, in a transparent way that upskills your team.</p>
             </div>
         </div>
-        <p class="impact-med arrow" style="margin-top: 24px;
-        "><a id="bookacall" href="https://calendly.com/maxquinn/eastwardbound-strategycall" LinkedIn Conversion="window.lintrk('track', { conversion_id: 14168330 });">Book a free strategy call</a></p>
     </div>
 
-<a class="banner" href="https://calendly.com/maxquinn/eastwardbound-strategycall">
-<div id="bookacall" class="book">
-    <p class="impact-big">Book a free 45 minute strategy call</p>
-    <img class="arrow" src="images/arrow-right.svg">
+    <div id="strategycall" class="content-standard">
+        <div class="cta">
+        <p class="title">Book a free strategy call</p>
+        <p class="para-big" style="margin-bottom: 8px;">During a 45 minute call with Eastward Bounds founder, Max, we'll discuss your biggest challenges, approaches you might take to them and how we can help.</p>
+        <button id="bookacall" class="fill big" style="margin-top:24px;" onclick="window.location.href='https://calendly.com/maxquinn/eastwardbound-strategycall';">Book a call now</button>
+        </div>
+    </div>
+
+
+<div class="menu-container">
+<nav>
+    <ul class="menu">
+    <li class="menu-item active">
+        <a href="https://eastwardbound.co">Home</a>
+    </li>
+    <li class="menu-item">
+        <a href="work">Work</a>
+    </li>
+    <li class="menu-item">
+        <a href="services">Services</a>
+    </li>
+    <li class="menu-item ">
+        <a href="contact">Contact</a>
+    </li>
+    </ul>
+</nav>
 </div>
-</a>
 
 <script>
 $(document).ready(function() {
@@ -246,6 +286,13 @@ $window.trigger('scroll');
         localStorage.setItem('visited', true);
     }
 })();
+</script>
+
+<script>
+$('.menu-item').hover(
+       function(){ $(this).addClass('hover') },
+       function(){ $(this).removeClass('hover') }
+)
 </script>
 
 <!-- 
